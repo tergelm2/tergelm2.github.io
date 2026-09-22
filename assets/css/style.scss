@@ -225,7 +225,63 @@
 .projects-grid {
   max-width: 1120px;
   margin: 0 auto;
+  padding: 2rem 2rem 3rem;
+}
+
+.side-projects {
+  max-width: 1120px;
+  margin: 0 auto;
   padding: 2rem 2rem 6rem;
+}
+
+.side-projects-heading {
+  max-width: 700px;
+  padding-top: 2rem;
+  border-top: 1px solid var(--portfolio-line);
+}
+
+.side-projects-heading h2 {
+  margin: .4rem 0 1rem;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  letter-spacing: -.035em;
+}
+
+.side-projects-heading > p:last-child {
+  color: var(--portfolio-muted);
+  line-height: 1.7;
+}
+
+.side-projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.side-project-card {
+  padding: 1.5rem;
+  border: 1px solid var(--portfolio-line);
+  border-radius: 18px;
+  background: var(--portfolio-surface);
+}
+
+.side-project-status {
+  color: var(--portfolio-accent);
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+.side-project-card h3 {
+  margin: .55rem 0;
+  font-size: 1.18rem;
+}
+
+.side-project-card p {
+  margin: 0;
+  color: var(--portfolio-muted);
+  line-height: 1.6;
 }
 
 .project-wrap,
@@ -319,6 +375,7 @@
 
   .featured-grid,
   .projects-grid,
+  .side-projects-grid,
   .case-study-grid {
     grid-template-columns: 1fr;
   }
@@ -327,7 +384,8 @@
 @media (max-width: 560px) {
   .portfolio-hero,
   .projects-intro,
-  .projects-grid {
+  .projects-grid,
+  .side-projects {
     padding-right: 1.2rem;
     padding-left: 1.2rem;
   }
