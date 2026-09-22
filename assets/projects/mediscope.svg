@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="MediScope hospital analytics interface">
+  <rect width="960" height="600" rx="28" fill="#eaf2f4"/>
+  <rect x="45" y="42" width="870" height="516" rx="24" fill="#fff" stroke="#cadbe0" stroke-width="3"/>
+  <rect x="45" y="42" width="870" height="78" rx="24" fill="#0a706a"/>
+  <circle cx="88" cy="81" r="18" fill="#fff" opacity=".95"/>
+  <path d="M88 69v24M76 81h24" stroke="#0a706a" stroke-width="7" stroke-linecap="round"/>
+  <text x="123" y="91" fill="#fff" font-family="Georgia" font-size="30" font-weight="700">MediScope</text>
+  <rect x="80" y="155" width="800" height="58" rx="14" fill="#f1f6f7" stroke="#d1dfe2"/>
+  <text x="105" y="191" fill="#71828c" font-family="Arial" font-size="18">Search hospitals by name, state, ZIP, ownership...</text>
+  <rect x="80" y="250" width="245" height="250" rx="18" fill="#f7fafb" stroke="#d1dfe2"/>
+  <rect x="357" y="250" width="245" height="250" rx="18" fill="#f7fafb" stroke="#d1dfe2"/>
+  <rect x="635" y="250" width="245" height="250" rx="18" fill="#f7fafb" stroke="#d1dfe2"/>
+  <g fill="#1c2b35" font-family="Arial" font-weight="700" font-size="20">
+    <text x="103" y="292">Hospital Search</text><text x="380" y="292">Quality Index</text><text x="658" y="292">Patient Reviews</text>
+  </g>
+  <g fill="#0a706a">
+    <rect x="103" y="325" width="170" height="14" rx="7"/><rect x="103" y="354" width="128" height="14" rx="7" opacity=".55"/>
+    <rect x="380" y="325" width="170" height="14" rx="7"/><rect x="380" y="354" width="145" height="14" rx="7" opacity=".55"/>
+    <rect x="658" y="325" width="170" height="14" rx="7"/><rect x="658" y="354" width="112" height="14" rx="7" opacity=".55"/>
+  </g>
+  <text x="80" y="540" fill="#5b6c78" font-family="Arial" font-size="16">CMS data · Cloud SQL · comparison workflows · review aggregation</text>
+</svg>

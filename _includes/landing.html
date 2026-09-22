@@ -1,15 +1,44 @@
-<div class="row justify-content-center align-items-center p-4">
-  <div class="col-lg-4 col-md-6 text-center mt-4">
-
-    <!-- Fine Circle Responsive Image -->
-    <div id="container" class="my-2">
-      <div id="dummy"></div>
-      <div id="element">
-        <img src="{{ site.author.image }}" alt="Image of a corgi smiling for {{ site.title }}" class="circle-image wow animated zoomIn" data-wow-delay=".1s">
-      </div>
+<section class="portfolio-hero">
+  <div class="portfolio-hero-copy wow animated fadeIn">
+    <p class="eyebrow">AI engineering · data products · full-stack development</p>
+    <h1>I build software that turns complex information into useful decisions.</h1>
+    <p class="portfolio-lede">I’m Tergel Myagmarsaikhan, a UIUC student working across agentic AI, machine learning, information retrieval, and database-backed applications.</p>
+    <div class="portfolio-actions">
+      <a class="portfolio-button portfolio-button-primary" href="{{ '/projects/' | relative_url }}">See my work</a>
+      <a class="portfolio-button" href="{{ '/about/' | relative_url }}">About me</a>
+      <a class="portfolio-text-link" href="https://github.com/tergelm2" target="_blank" rel="noopener">GitHub ↗</a>
     </div>
-
-    <p class="text-muted wow animated slideInUp" data-wow-delay=".15s">{{ site.description }}</p>
-
   </div>
-</div>
+  <div class="portfolio-hero-visual wow animated fadeIn" data-wow-delay=".1s">
+    <img src="{{ '/assets/projects/avatar.svg' | relative_url }}" alt="TM monogram" />
+    <div class="portfolio-status"><span></span> Building practical AI systems</div>
+  </div>
+</section>
+
+<section class="featured-work">
+  <div class="section-heading">
+    <p class="eyebrow">Featured work</p>
+    <h2>From model output to working product.</h2>
+  </div>
+  <div class="featured-grid">
+    <a class="featured-card" href="{{ '/projects/01-fpl-multi-agent-optimizer' | relative_url }}">
+      <span class="featured-number">01</span>
+      <h3>FPL Multi-Agent Optimizer</h3>
+      <p>Forecasts, specialized agents, and a product interface for fantasy-football decisions.</p>
+      <span class="featured-meta">LangGraph · XGBoost · FastAPI · React</span>
+    </a>
+    <a class="featured-card" href="{{ '/projects/02-mediscope' | relative_url }}">
+      <span class="featured-number">02</span>
+      <h3>MediScope</h3>
+      <p>Cloud-backed hospital search, quality scoring, and a complete review workflow over CMS data.</p>
+      <span class="featured-meta">Node.js · MySQL · Cloud SQL · EJS</span>
+    </a>
+    <a class="featured-card" href="{{ '/projects/03-ecesac-chatbot' | relative_url }}">
+      <span class="featured-number">03</span>
+      <h3>ECESAC Chatbot</h3>
+      <p>Grounded retrieval and a learning feedback loop for student support questions.</p>
+      <span class="featured-meta">Python · TF-IDF · Gradio · NLP</span>
+    </a>
+  </div>
+  <a class="portfolio-text-link work-link" href="{{ '/projects/' | relative_url }}">View all projects →</a>
+</section>

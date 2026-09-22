@@ -1,4 +1,4 @@
-<div class="card-columns m-3 mt-5">
+<div class="projects-grid">
 
   <!-- Local Projects -->
   {% for project in site.projects %}
@@ -9,8 +9,7 @@
     {%- if project.external_img -%}
       {%- assign project_img = project.external_image -%}
     {%- else -%}
-      {%- assign u = project.image | split: "projects/" -%}
-      {%- assign project_img = {{u[0]}} | relative_url -%}
+      {%- assign project_img = project.image | relative_url -%}
   {%- endif -%}
   
 
@@ -33,39 +32,4 @@
 
 
 
-  <!-- Remote Projects -->
-  {% for remote_project in page.remote_projects %}
-
-  {% if site.github.private != true and site.github.license %}
-   {%- for repo in site.github.public_repositories -%}
-
-    {%- if remote_project == repo.name -%}
-
-        {%- assign project = repo -%}
-        {%- assign words = project.name | split: '-' -%}
-        
-        {%- capture titlecase -%}
-          {%- for word in words -%}
-            {{ word | capitalize | append: ' ' }}
-          {%- endfor -%}
-        {%- endcapture -%}
-
-        {%- assign project_type  = "remote" -%}
-        {%- assign project_id    = project.name -%}
-        {%- assign project_img   = false -%}
-        {%- assign project_name  = titlecase | strip -%}
-        {%- assign project_desc  = project.description -%}
-        {%- assign project_url   = project.html_url -%}
-        {%- assign project_tools = project.topics -%}
-        {%- assign external      = true -%}
-
-        {% include projects/project-card.html %}
-
-      {%- endif -%}
-
-    {%- endfor -%}
-
-  {%- endif -%}
-
-  {% endfor %}
 </div>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="FPL multi-agent architecture">
+  <rect width="960" height="600" rx="28" fill="#10243a"/>
+  <path d="M0 450C220 330 370 580 620 430s270-40 340-5v175H0z" fill="#163f48"/>
+  <circle cx="115" cy="100" r="54" fill="#ff6b35"/>
+  <text x="70" y="190" fill="#fff" font-family="Arial" font-size="42" font-weight="700">FPL Decision System</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="70" y="250" width="210" height="150" rx="20" fill="#fff"/>
+    <text x="175" y="305" fill="#ff6b35" font-size="18" font-weight="700">STATISTICIAN</text>
+    <text x="175" y="340" fill="#33485b" font-size="17">XGBoost forecasts</text>
+    <text x="175" y="368" fill="#33485b" font-size="17">player projections</text>
+    <rect x="375" y="250" width="210" height="150" rx="20" fill="#ffdbc8"/>
+    <text x="480" y="305" fill="#b84520" font-size="18" font-weight="700">SPORTING DIRECTOR</text>
+    <text x="480" y="340" fill="#33485b" font-size="17">transfer candidates</text>
+    <text x="480" y="368" fill="#33485b" font-size="17">budget constraints</text>
+    <rect x="680" y="250" width="210" height="150" rx="20" fill="#fff"/>
+    <text x="785" y="305" fill="#ff6b35" font-size="18" font-weight="700">MANAGER</text>
+    <text x="785" y="340" fill="#33485b" font-size="17">XI · bench · captain</text>
+    <text x="785" y="368" fill="#33485b" font-size="17">chips · explanation</text>
+  </g>
+  <path d="M280 325h78m227 0h78" stroke="#ff6b35" stroke-width="7" stroke-linecap="round"/>
+  <path d="m348 310 18 15-18 15m305-30 18 15-18 15" fill="none" stroke="#ff6b35" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="520" fill="#a7bacb" font-family="Arial" font-size="20">Forecast → reason over constraints → explain the recommendation</text>
+</svg>

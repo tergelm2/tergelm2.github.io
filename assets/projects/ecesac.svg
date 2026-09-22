@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="ECESAC retrieval and feedback pipeline">
+  <rect width="960" height="600" rx="28" fill="#181a2a"/>
+  <text x="64" y="92" fill="#fff" font-family="Arial" font-size="42" font-weight="700">ECESAC Student Assistant</text>
+  <text x="66" y="128" fill="#aaaed0" font-family="Arial" font-size="18">Grounded retrieval with a learning feedback loop</text>
+  <g font-family="Arial" text-anchor="middle">
+    <rect x="64" y="205" width="180" height="118" rx="18" fill="#fff"/>
+    <text x="154" y="255" fill="#2c3158" font-size="18" font-weight="700">STUDENT</text>
+    <text x="154" y="285" fill="#6b6f92" font-size="16">question</text>
+    <rect x="298" y="205" width="180" height="118" rx="18" fill="#ffcf70"/>
+    <text x="388" y="255" fill="#2c3158" font-size="18" font-weight="700">RETRIEVER</text>
+    <text x="388" y="285" fill="#595c78" font-size="16">courses · faculty · FAQ</text>
+    <rect x="532" y="205" width="180" height="118" rx="18" fill="#a6e3d8"/>
+    <text x="622" y="255" fill="#1c4a47" font-size="18" font-weight="700">GROUNDED LLM</text>
+    <text x="622" y="285" fill="#41726e" font-size="16">answer + sources</text>
+    <rect x="766" y="205" width="130" height="118" rx="18" fill="#fff"/>
+    <text x="831" y="255" fill="#2c3158" font-size="18" font-weight="700">FEEDBACK</text>
+    <text x="831" y="285" fill="#6b6f92" font-size="16">rerank</text>
+  </g>
+  <g stroke="#ff6b6b" stroke-width="6" stroke-linecap="round" fill="none">
+    <path d="M244 264h40m194 0h40m194 0h40"/><path d="m272 251 14 13-14 13m234-26 14 13-14 13m234-26 14 13-14 13"/>
+    <path d="M831 340v100H388v-100"/>
+  </g>
+  <text x="609" y="478" fill="#aaaed0" font-family="Arial" font-size="17" text-anchor="middle">Helpfulness votes influence the next retrieval</text>
+</svg>

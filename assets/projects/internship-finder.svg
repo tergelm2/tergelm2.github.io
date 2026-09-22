@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Internship Finder workflow">
+  <rect width="960" height="600" rx="28" fill="#f5efe5"/>
+  <text x="65" y="92" fill="#22323e" font-family="Arial" font-size="42" font-weight="700">Internship Finder</text>
+  <text x="66" y="130" fill="#697782" font-family="Arial" font-size="18">Resume-aware search with explainable scoring</text>
+  <rect x="65" y="190" width="260" height="325" rx="24" fill="#fff" stroke="#ddd1c1" stroke-width="3"/>
+  <rect x="102" y="230" width="186" height="18" rx="9" fill="#ff6b35"/>
+  <rect x="102" y="274" width="152" height="12" rx="6" fill="#c5cdd2"/>
+  <rect x="102" y="304" width="186" height="12" rx="6" fill="#c5cdd2"/>
+  <rect x="102" y="334" width="134" height="12" rx="6" fill="#c5cdd2"/>
+  <text x="195" y="440" fill="#22323e" font-family="Arial" font-size="20" font-weight="700" text-anchor="middle">RESUME</text>
+  <path d="M350 350h100" stroke="#ff6b35" stroke-width="8" stroke-linecap="round"/><path d="m430 332 22 18-22 18" fill="none" stroke="#ff6b35" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="485" y="190" width="410" height="325" rx="24" fill="#173d63"/>
+  <g font-family="Arial">
+    <text x="525" y="240" fill="#fff" font-size="21" font-weight="700">RANKED MATCHES</text>
+    <rect x="525" y="274" width="330" height="62" rx="14" fill="#fff"/><text x="548" y="312" fill="#22323e" font-size="17">Data &amp; AI Internship</text><text x="800" y="312" fill="#ff6b35" font-size="18" font-weight="700">92</text>
+    <rect x="525" y="354" width="330" height="62" rx="14" fill="#fff" opacity=".9"/><text x="548" y="392" fill="#22323e" font-size="17">Software Engineering Intern</text><text x="800" y="392" fill="#ff6b35" font-size="18" font-weight="700">84</text>
+    <rect x="525" y="434" width="330" height="42" rx="12" fill="#ffdbc8"/><text x="548" y="461" fill="#8c361b" font-size="15">skills · similarity · education · level</text>
+  </g>
+</svg>

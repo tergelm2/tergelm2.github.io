@@ -1,27 +1,15 @@
-- title: AMAZING STUFF
-  from: 2019
-  to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: ECESAC Student Support Chatbot
+  from: 2026
+  to: 2026
+  description: Built an information-retrieval and sentiment-analysis pipeline over ECE course, faculty, and FAQ data, including a feedback loop that adjusts future retrieval rankings.
 
-- title: Student, Harvard CS
-  from: 2013
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: MediScope Hospital Analytics
+  from: 2026
+  to: 2026
+  description: Integrated a hospital analytics application with Cloud SQL, implemented live search and review workflows, and added an aggregate-review database trigger.
 
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Fantasy Premier League Multi-Agent Optimizer
+  from: 2026
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Contributed manager-agent decision logic to a team system that combines machine-learning forecasts with specialized agents for lineup, transfer, and captaincy decisions.
 
