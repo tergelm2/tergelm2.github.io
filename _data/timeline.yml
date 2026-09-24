@@ -1,15 +1,16 @@
-- title: ECESAC Student Support Chatbot
-  from: 2026
-  to: 2026
-  description: Built an information-retrieval and sentiment-analysis pipeline over ECE course, faculty, and FAQ data, including a feedback loop that adjusts future retrieval rankings.
+- title: Data Engineering Intern · Middleby Corporation
+  period: May–August 2026
+  description: Worked on ETL/ELT pipelines across Azure Data Factory, Synapse, and Microsoft Fabric, and built a data-validation platform covering three source systems and 35+ tables.
 
 - title: MediScope Hospital Analytics
-  from: 2026
-  to: 2026
+  period: Spring 2026
   description: Integrated a hospital analytics application with Cloud SQL, implemented live search and review workflows, and added an aggregate-review database trigger.
 
+- title: ECESAC Student Support Chatbot
+  period: Spring 2026
+  description: Built an information-retrieval and sentiment-analysis pipeline over ECE course, faculty, and FAQ data, including a feedback loop that adjusts future retrieval rankings.
+
 - title: Fantasy Premier League Multi-Agent Optimizer
-  from: 2026
-  to: present
+  period: Spring 2026
   description: Contributed manager-agent decision logic to a team system that combines machine-learning forecasts with specialized agents for lineup, transfer, and captaincy decisions.
 

@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Tergel Myagmarsaikhan
 description         : >-
-                      I build practical AI agents, data products, and full-stack applications.
+                      Data engineering, reliable pipelines, and applied AI projects by Tergel Myagmarsaikhan.
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
 repository          : tergelm2/tergelm2.github.io
@@ -35,7 +35,8 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Tergel Myagmarsaikhan
-  image             : /assets/projects/avatar.svg
+  image             : /assets/images/tergel-headshot.png
+  email             : tergel.myag@gmail.com
 #  behance           : your_username
 # dribbble          : your_username
 #  facebook          : your_username
@@ -43,7 +44,7 @@ author:
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-#  linkedin          : your_username
+  linkedin          : tergel-myagmarsaikhan-a437b2327
 #  medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username

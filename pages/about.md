@@ -5,17 +5,36 @@ permalink: /about/
 weight: 3
 ---
 
-# About me
+<div class="about-profile">
+  <img src="{{ '/assets/images/tergel-headshot.png' | relative_url }}" alt="Portrait of Tergel Myagmarsaikhan">
+  <div>
+    <p class="eyebrow">About me</p>
+    <h1>Tergel Myagmarsaikhan</h1>
+    <p>I’m an Information Sciences + Data Science student at the University of Illinois Urbana-Champaign, graduating in December 2026 with a minor in Computer Science. I’m interested in data engineering work that makes complex data reliable and useful.</p>
+    <div class="portfolio-actions">
+      <a class="portfolio-button portfolio-button-primary" href="{{ '/assets/resume/Tergel_Myagmarsaikhan_Resume_Sept2026.pdf' | relative_url }}" target="_blank" rel="noopener">View resume ↗</a>
+      <a class="portfolio-button" href="mailto:{{ site.author.email }}">Email me</a>
+      <a class="portfolio-button" href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn ↗</a>
+    </div>
+  </div>
+</div>
 
-I’m **{{ site.author.name }}**, a University of Illinois Urbana-Champaign student who enjoys turning messy information into useful software. My recent work spans multi-agent AI systems, information retrieval, machine learning, databases, and full-stack web applications.
+## Data engineering experience
 
-I’m especially interested in products where the engineering is visible in the outcome: an agent that can explain a decision, a search tool that helps someone find the right answer, or a database application that makes complex public data understandable.
+As a Data Engineering Intern at Middleby Corporation in summer 2026, I developed and maintained ETL/ELT pipelines across Azure Data Factory, Azure Synapse, and Microsoft Fabric. I worked on moving legacy brand data into a Bronze/Silver/Gold architecture and built a data-validation platform spanning three source systems and more than 35 tables.
 
-Across team projects, I’ve owned concrete pieces of the stack—from retrieval and feedback pipelines to Cloud SQL integration, review workflows, database triggers, and agent decision logic.
+In MediScope, a team hospital-analytics project, I connected the application to Cloud SQL, implemented live search and review workflows, and wrote a trigger to maintain aggregate review metrics. I also enjoy applied AI and information-retrieval projects, but data systems are a central part of the work I want to do next.
+
+## Certification
+
+Microsoft Certified: Fabric Data Engineer Associate (DP-700).
 
 ## Tools I have worked with
 
-Python, JavaScript, Node.js, React, SQL, MySQL, Cloud SQL, FastAPI, Gradio, LangGraph, XGBoost, scikit-learn, Git, and data visualization tools.
+- **Data and cloud:** SQL, Python, Microsoft Fabric, Azure Data Factory, Azure Synapse, Azure Data Lake, Microsoft Purview, MySQL, Cloud SQL, ETL/ELT pipelines
+- **Applications and analysis:** JavaScript, Node.js, React, FastAPI, Streamlit, Pandas, NumPy, scikit-learn, and Git
+
+## Experience and projects
 
 <div class="row">
 {% include about/timeline.html %}
@@ -29,5 +48,5 @@ Python, JavaScript, Node.js, React, SQL, MySQL, Cloud SQL, FastAPI, Gradio, Lang
 
 <div class="portfolio-actions">
   <a class="portfolio-button portfolio-button-primary" href="{{ '/projects/' | relative_url }}">Explore my projects</a>
-  <a class="portfolio-button" href="https://github.com/tergelm2" target="_blank" rel="noopener">View GitHub</a>
+  <a class="portfolio-button" href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">View GitHub</a>
 </div>

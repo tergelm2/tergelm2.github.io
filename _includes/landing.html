@@ -1,37 +1,67 @@
 <section class="portfolio-hero">
   <div class="portfolio-hero-copy wow animated fadeIn">
-    <p class="eyebrow">AI engineering · data products · full-stack development</p>
-    <h1>I build software that turns complex information into useful decisions.</h1>
-    <p class="portfolio-lede">I’m Tergel Myagmarsaikhan, a UIUC student working across agentic AI, machine learning, information retrieval, and database-backed applications.</p>
+    <p class="eyebrow">Data engineering · analytics · applied AI</p>
+    <h1>I build data pipelines and decision tools.</h1>
+    <p class="portfolio-lede">I’m Tergel Myagmarsaikhan, a UIUC Information Sciences + Data Science student. At Middleby, I worked on ETL/ELT pipelines and data-quality validation across Microsoft Fabric and Azure. I also build database-backed and AI applications.</p>
     <div class="portfolio-actions">
-      <a class="portfolio-button portfolio-button-primary" href="{{ '/projects/' | relative_url }}">See my work</a>
-      <a class="portfolio-button" href="{{ '/about/' | relative_url }}">About me</a>
-      <a class="portfolio-text-link" href="https://github.com/tergelm2" target="_blank" rel="noopener">GitHub ↗</a>
+      <a class="portfolio-button portfolio-button-primary" href="{{ '/assets/resume/Tergel_Myagmarsaikhan_Resume_Sept2026.pdf' | relative_url }}" target="_blank" rel="noopener">View resume ↗</a>
+      <a class="portfolio-button" href="{{ '/projects/' | relative_url }}">See my work</a>
     </div>
+    <div class="portfolio-contact-links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/{{ site.author.github }}" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <p class="portfolio-credential">Microsoft Certified: Fabric Data Engineer Associate (DP-700)</p>
   </div>
   <div class="portfolio-hero-visual wow animated fadeIn" data-wow-delay=".1s">
-    <img src="{{ '/assets/projects/avatar.svg' | relative_url }}" alt="TM monogram" />
-    <div class="portfolio-status"><span></span> Building practical AI systems</div>
+    <img src="{{ '/assets/images/tergel-headshot.png' | relative_url }}" alt="Portrait of Tergel Myagmarsaikhan" />
+    <div class="portfolio-status">UIUC · Class of 2026</div>
+  </div>
+</section>
+
+<section class="data-engineering" aria-labelledby="data-engineering-title">
+  <div class="data-engineering-intro">
+    <p class="eyebrow">Data engineering experience</p>
+    <h2 id="data-engineering-title">From raw sources to trusted answers.</h2>
+    <p>My recent work includes production-oriented pipelines, data-quality checks, and relational data models—not just applications built on top of them.</p>
+  </div>
+  <div class="data-engineering-grid">
+    <article>
+      <span>Middleby · Summer 2026</span>
+      <h3>ETL/ELT pipelines</h3>
+      <p>Worked across Azure Data Factory, Synapse, and Microsoft Fabric to migrate legacy brand data into a Bronze/Silver/Gold architecture.</p>
+    </article>
+    <article>
+      <span>Middleby · Summer 2026</span>
+      <h3>Data quality validation</h3>
+      <p>Built a validation platform spanning three source systems and 35+ tables, with a dashboard that surfaced missing and inconsistent records.</p>
+    </article>
+    <article>
+      <span>MediScope · Spring 2026</span>
+      <h3>SQL &amp; Cloud SQL</h3>
+      <p>Connected hospital datasets to Cloud SQL-backed search and used a database trigger to keep review aggregates synchronized.</p>
+    </article>
   </div>
 </section>
 
 <section class="featured-work">
   <div class="section-heading">
-    <p class="eyebrow">Featured work</p>
-    <h2>From model output to working product.</h2>
+    <p class="eyebrow">Selected projects</p>
+    <h2>Data systems and products built with teams.</h2>
   </div>
   <div class="featured-grid">
-    <a class="featured-card" href="{{ '/projects/01-fpl-multi-agent-optimizer' | relative_url }}">
+    <a class="featured-card" href="{{ '/projects/02-mediscope' | relative_url }}">
       <span class="featured-number">01</span>
+      <h3>MediScope</h3>
+      <p>Four CMS datasets in a relational hospital model, with Cloud SQL search, quality scoring, and trigger-maintained review metrics.</p>
+      <span class="featured-meta">SQL · MySQL · Cloud SQL · Node.js</span>
+    </a>
+    <a class="featured-card" href="{{ '/projects/01-fpl-multi-agent-optimizer' | relative_url }}">
+      <span class="featured-number">02</span>
       <h3>FPL Multi-Agent Optimizer</h3>
       <p>Forecasts, specialized agents, and a product interface for fantasy-football decisions.</p>
       <span class="featured-meta">LangGraph · XGBoost · FastAPI · React</span>
-    </a>
-    <a class="featured-card" href="{{ '/projects/02-mediscope' | relative_url }}">
-      <span class="featured-number">02</span>
-      <h3>MediScope</h3>
-      <p>Cloud-backed hospital search, quality scoring, and a complete review workflow over CMS data.</p>
-      <span class="featured-meta">Node.js · MySQL · Cloud SQL · EJS</span>
     </a>
     <a class="featured-card" href="{{ '/projects/03-ecesac-chatbot' | relative_url }}">
       <span class="featured-number">03</span>

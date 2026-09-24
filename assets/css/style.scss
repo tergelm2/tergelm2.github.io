@@ -104,8 +104,37 @@
 .portfolio-hero-visual img {
   display: block;
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: 34px;
   box-shadow: 0 28px 70px rgba(23, 61, 99, .18);
+}
+
+.portfolio-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem 1.4rem;
+  margin-top: 1.35rem;
+}
+
+.portfolio-contact-links a {
+  color: var(--portfolio-blue);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: .2em;
+}
+
+.portfolio-credential {
+  margin: 1.5rem 0 0;
+  padding-left: 1rem;
+  border-left: 3px solid var(--portfolio-accent);
+  color: var(--portfolio-muted);
+  font-size: .88rem;
+  line-height: 1.5;
+}
+
+.nav-resume {
+  font-weight: 700;
 }
 
 .portfolio-status {
@@ -130,6 +159,93 @@
   margin-right: .45rem;
   border-radius: 50%;
   background: #22a06b;
+}
+
+.data-engineering {
+  padding: 5rem max(2rem, calc((100vw - 1120px) / 2));
+  background: var(--portfolio-blue);
+  color: #fff;
+}
+
+.data-engineering-intro {
+  max-width: 760px;
+}
+
+.data-engineering-intro h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.6rem);
+  letter-spacing: -.04em;
+}
+
+.data-engineering-intro > p:last-child {
+  max-width: 690px;
+  margin: 1.25rem 0 2rem;
+  color: rgba(255, 255, 255, .78);
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.data-engineering-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.data-engineering-grid article {
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, .24);
+  border-radius: 20px;
+  background: rgba(255, 255, 255, .06);
+}
+
+.data-engineering-grid span {
+  color: #ffb58d;
+  font-size: .78rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.data-engineering-grid h3 {
+  margin: 1rem 0 .7rem;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.data-engineering-grid p {
+  margin: 0;
+  color: rgba(255, 255, 255, .8);
+  line-height: 1.65;
+}
+
+.about-profile {
+  display: grid;
+  grid-template-columns: 200px minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem 0 3rem;
+}
+
+.about-profile img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.about-profile h1 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 4vw, 3rem);
+  letter-spacing: -.04em;
+}
+
+.about-profile p:not(.eyebrow) {
+  max-width: 700px;
+  line-height: 1.75;
+}
+
+.about-profile .portfolio-actions {
+  margin-top: 1.35rem;
 }
 
 .featured-work {
@@ -374,6 +490,7 @@
   }
 
   .featured-grid,
+  .data-engineering-grid,
   .projects-grid,
   .side-projects-grid,
   .case-study-grid {
@@ -392,5 +509,18 @@
 
   .portfolio-status {
     right: -.4rem;
+  }
+
+  .data-engineering {
+    padding-right: 1.2rem;
+    padding-left: 1.2rem;
+  }
+
+  .about-profile {
+    grid-template-columns: 1fr;
+  }
+
+  .about-profile img {
+    max-width: 220px;
   }
 }
