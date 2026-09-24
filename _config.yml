@@ -11,10 +11,7 @@ theme               : null
 
 ### Plugins ###
 plugins:
-  - jekyll-archives
   - jekyll-sitemap
-  - jekyll-paginate-v2
-  - mini_magick
 
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
@@ -24,11 +21,8 @@ sass:
 
 ### Navbar Settings ###
 nav_exclude:                                            # The following paths are excluded from navbar
-  - pages/tags.html
   - pages/404.html
   - pages/index.md
-  - documentation/partials/**                           # For Documentation Only
-  - pages/blog.html # comment out this line if you want a blog!
 
 
 
@@ -57,22 +51,11 @@ author:
 # keybase           : your_username
 
 
-### Posts ###
-permalink: /blog/:title
-
-
 ### Collections ###
 collections:
   projects:
     output: true
     permalink: /projects/:name
-  elements:                                             # For Documentation Only
-    output: true                                        # For Documentation Only
-
-
-### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
@@ -99,22 +82,12 @@ defaults:
       type: "projects"
     values:
       layout: "page"
-  - scope:                                              # For Documentation Only
-      path: ""                                          # For Documentation Only
-      type: "elements"                                  # For Documentation Only
-    values:                                             # For Documentation Only
-      layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
-
-
 ### Exclude from processing ###
 ## Add yours here if you have other stuff in your github.io page!!!**
 exclude:
   - README.md
+  - Gemfile
+  - Gemfile.lock
   - README.md~
   - CONTRIBUTING.md
   - LICENSE.md
@@ -122,5 +95,4 @@ exclude:
   - config.yml~
   - "*.log"
   - "*.ipynb"
-  - "python_notebooks/*"
   - vendor
